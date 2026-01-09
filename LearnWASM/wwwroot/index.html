@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<!--  Licensed to the .NET Foundation under one or more agreements. -->
-<!-- The .NET Foundation licenses this file to you under the MIT license. -->
 <html>
-
 <head>
   <title>LearnWASM</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type='module' src="./main.js"></script>
+  <script type="text/javascript"> 
+
+    const DoAThing = () => {
+      console.log('lama');
+      Test();
+    };
+  </script>
 </head>
 
 <body>
   <span id="out"></span>
+  <button onclick="DoAThing()">Do a thing</button>
 </body>
 
 </html>
